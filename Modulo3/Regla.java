@@ -5,10 +5,9 @@
  */
 package com.mvl.proyectolibreria;
 
-/**
- *
- * @author Hp
- */
+//Tarea 23 - Módulo 3 - Netbeans IDE empezamos a codear.
+//Alumno: Daniel Pozzo Ardizzi.
+
 public class Regla {
         
     //atributos de la clase

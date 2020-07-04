@@ -5,10 +5,9 @@
  */
 package com.mvl.proyectolibreria;
 
-/**
- *
- * @author Hp
- */
+//Tarea 23 - Módulo 3 - Netbeans IDE empezamos a codear.
+//Alumno: Daniel Pozzo Ardizzi.
+
 public class Principal {
 
     /**
@@ -17,6 +16,8 @@ public class Principal {
     public static void main(String[] args) {
         // TODO code application logic here
         //1er forma de mostrar la información
+        System.out.println ("Tarea 23 - Módulo 3 - Netbeans IDE empezamos a codear.");
+        System.out.println ("");
         System.out.println("Liberia MVL");
         Lapicera lapi1=new Lapicera("Bic",3,"Azul");
         Lapicera lapi2=new Lapicera("Faber Castel",32,"Azul");
@@ -39,7 +40,7 @@ public class Principal {
         System.out.println("La marca de la lapicera 3 es: "+ lapi3.getMarca() + ". Modelo nro. " + lapi3.getModelo() + ". Color: "+ lapi3.getColor());
         //cambiando el método personalizado
          System.out.println(lapi3.mostrarPorPantalla());
-         
+        System.out.println (""); 
         Regla reg1=new Regla ();
         reg1.setMarca("Kandor");
         reg1.setLongitud(30);
@@ -48,6 +49,10 @@ public class Principal {
         System.out.println(reg1.mostrarReglaPorPantalla());
         
         System.out.println("La marca de la regla es: "+ reg1.getMarca() + ". Longitud (cm): " + reg1.getLongitud() + ". Material: "+ reg1.getMaterial());
+        System.out.println ("");
+        System.out.println ("");
+        System.out.println ("Alumno: Daniel Pozzo Ardizzi.");
+    
     }
     
 }
