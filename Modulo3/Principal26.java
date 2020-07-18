@@ -18,8 +18,8 @@ public class Principal26 {
     public static void main(String[] args) {
         // TODO code application logic here
         
-    String nombreUsuario = JOptionPane.showInputDialog("Ingrese su nombre");
-    JOptionPane.showMessageDialog(null,"Buen día "+nombreUsuario);
+    String nombreUsuario = JOptionPane.showInputDialog(null, "Ingrese su nombre","Información del Usuario", JOptionPane.WARNING_MESSAGE);
+    JOptionPane.showMessageDialog(null,"Buen día " +nombreUsuario, "Usuario Identificado", JOptionPane.WARNING_MESSAGE);
    
             
     String primerNumero = JOptionPane.showInputDialog("Ingrese el primer número para calcular");

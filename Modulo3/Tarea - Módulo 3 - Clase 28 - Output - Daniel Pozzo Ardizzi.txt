@@ -1,0 +1,51 @@
+cd C:\Users\Hp\Documents\NetBeansProjects\Vehiculo_clases; "JAVA_HOME=C:\\Program Files\\Java\\jdk-14.0.1" cmd /c "\"C:\\Program Files\\NetBeans-12.0\\netbeans\\java\\maven\\bin\\mvn.cmd\" -Dexec.args=\"-classpath %classpath com.mvl.vehiculo_clases.Vehiculo_clases\" -Dexec.executable=\"C:\\Program Files\\Java\\jdk-14.0.1\\bin\\java.exe\" -Dmaven.ext.class.path=\"C:\\Program Files\\NetBeans-12.0\\netbeans\\java\\maven-nblib\\netbeans-eventspy.jar\" -Dfile.encoding=UTF-8 process-classes org.codehaus.mojo:exec-maven-plugin:1.5.0:exec"
+Scanning for projects...
+
+----------------------< com.mvl:Vehiculo_clases >-----------------------
+Building Vehiculo_clases 1.0-SNAPSHOT
+--------------------------------[ jar ]---------------------------------
+
+--- maven-resources-plugin:2.6:resources (default-resources) @ Vehiculo_clases ---
+Using 'UTF-8' encoding to copy filtered resources.
+skip non existing resourceDirectory C:\Users\Hp\Documents\NetBeansProjects\Vehiculo_clases\src\main\resources
+
+--- maven-compiler-plugin:3.1:compile (default-compile) @ Vehiculo_clases ---
+Changes detected - recompiling the module!
+Compiling 5 source files to C:\Users\Hp\Documents\NetBeansProjects\Vehiculo_clases\target\classes
+
+--- exec-maven-plugin:1.5.0:exec (default-cli) @ Vehiculo_clases ---
+Los datos del vehículo son:
+
+Marca:Volkswagen
+Serie: Y154WR5844EGI
+
+
+Los datos de la bicicleta son:
+
+Marca:Bianchi
+Tipo: carrera
+Antigüedad: 5
+
+
+Los datos del moto son:
+
+Marca:Japón
+Serie: PUH5854D6LJ
+Uso: ciudad
+Fabricante: Japón
+
+
+Los datos del auto son:
+
+Marca:Ford
+Serie: JKEYUGD558455D
+Color: rojo
+Rodado: 16
+------------------------------------------------------------------------
+BUILD SUCCESS
+------------------------------------------------------------------------
+Total time:  6.015 s
+Finished at: 2020-07-18T17:01:26-03:00
+------------------------------------------------------------------------
+"cmd" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
